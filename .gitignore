@@ -1,0 +1,23 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfplan
+.terraform.lock.hcl
+*.tfvars
+!terraform.tfvars.example
+
+# Lambda build
+lambda/handler.zip
+lambda/__pycache__/
+lambda/src/__pycache__/
+*.pyc
+.pytest_cache/
+
+# Python
+venv/
+.env
+.env.*
+
+# OS
+.DS_Store
